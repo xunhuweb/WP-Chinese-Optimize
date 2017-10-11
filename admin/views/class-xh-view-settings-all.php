@@ -73,12 +73,12 @@ class XH_WP_Optimize_View_Settings_All extends XH_WP_Optimize_View_Form_Native{
 					<label><input type="checkbox" disabled value="yes" name="XH_WP_OPTIMIZE_ALL[html_zip]" <?php print (isset($this->options['html_zip'])&&$this->options['html_zip']=='yes'?'checked':'');?> /> 启用html压缩</label>
 					</td>
 				</tr>
-				<tr>
+				<!-- <tr>
 					<th scope="row"><label>谷歌字体</label></th>
 					<td>
 					<label><input type="checkbox" value="yes" name="XH_WP_OPTIMIZE_ALL[disable_google_fonts]" <?php print (isset($this->options['disable_google_fonts'])&&$this->options['disable_google_fonts']=='yes'?'checked':'');?> /> 禁用谷歌字体</label>
 					</td>
-				</tr>
+				</tr> -->
 				<tr>
 					<th scope="row"><label>缓存翻译文件</label></th>
 					<td>
